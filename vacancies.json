@@ -1,27 +1,11 @@
 [
     {
-        "name": "Водитель-испытатель",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127537151",
-        "salary_from": 450000,
-        "salary_to": 0,
-        "currency": "KZT"
-    },
-    {
-        "name": "Работник в торговый зал",
-        "city": "Пенза",
-        "url": "https://hh.ru/vacancy/127259847",
-        "salary_from": 70000,
-        "salary_to": 120000,
-        "currency": "RUR"
-    },
-    {
-        "name": "JUNIOR FRONT―END ENGINEER",
-        "city": "Ташкент",
-        "url": "https://hh.ru/vacancy/127360405",
-        "salary_from": 0,
-        "salary_to": 1000,
-        "currency": "USD"
+        "name": "Офисный работник",
+        "city": "Брест",
+        "url": "https://hh.ru/vacancy/127630429",
+        "salary_from": 1400,
+        "salary_to": 1600,
+        "currency": "BYR"
     },
     {
         "name": "Менеджер по продажам",
@@ -40,116 +24,20 @@
         "currency": "KZT"
     },
     {
-        "name": "ООО \"СИМВЕР\"",
-        "city": "Могилев",
-        "url": "https://hh.ru/vacancy/127449644",
-        "salary_from": 1700,
-        "salary_to": 0,
-        "currency": "BYR"
-    },
-    {
-        "name": "ReactJS developer",
-        "city": "Ташкент",
-        "url": "https://hh.ru/vacancy/127091188",
-        "salary_from": 0,
-        "salary_to": 1000,
-        "currency": "USD"
-    },
-    {
         "name": "Консультант - эксперт в Fashion сеть VITACCI !",
         "city": "Ташкент",
         "url": "https://hh.ru/vacancy/126898260",
         "salary_from": 0,
         "salary_to": 0,
-        "currency": null
+        "currency": ""
     },
     {
-        "name": "Администратор",
-        "city": "Брест",
-        "url": "https://hh.ru/vacancy/127544863",
-        "salary_from": 1400,
-        "salary_to": 0,
-        "currency": "BYR"
-    },
-    {
-        "name": "Frontend-разработчик",
-        "city": "Ташкент",
-        "url": "https://hh.ru/vacancy/127431720",
-        "salary_from": 5000000,
-        "salary_to": 0,
-        "currency": "UZS"
-    },
-    {
-        "name": "Бухгалтер на первичную документацию",
-        "city": "Астана",
-        "url": "https://hh.ru/vacancy/127352767",
-        "salary_from": 400000,
-        "salary_to": 500000,
-        "currency": "KZT"
-    },
-    {
-        "name": "Шеф-повар",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127560041",
-        "salary_from": 0,
-        "salary_to": 1200000,
-        "currency": "KZT"
-    },
-    {
-        "name": "Администратор",
-        "city": "Барановичи",
-        "url": "https://hh.ru/vacancy/127490667",
-        "salary_from": 1200,
-        "salary_to": 1500,
-        "currency": "BYR"
-    },
-    {
-        "name": "Junior Frontend разработчик",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127229477",
-        "salary_from": 0,
-        "salary_to": 0,
-        "currency": null
-    },
-    {
-        "name": "Главный бухгалтер",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127538539",
-        "salary_from": 1200000,
-        "salary_to": 0,
-        "currency": "KZT"
-    },
-    {
-        "name": "Упаковщик",
-        "city": "Бишкек",
-        "url": "https://hh.ru/vacancy/127551748",
-        "salary_from": 40000,
-        "salary_to": 55000,
-        "currency": "KGS"
-    },
-    {
-        "name": "Диспетчер",
-        "city": "Актау",
-        "url": "https://hh.ru/vacancy/127487294",
+        "name": "Табельщик",
+        "city": "Атырау",
+        "url": "https://hh.ru/vacancy/127636183",
         "salary_from": 250000,
         "salary_to": 350000,
         "currency": "KZT"
-    },
-    {
-        "name": "Администратор",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127477314",
-        "salary_from": 500000,
-        "salary_to": 500000,
-        "currency": "KZT"
-    },
-    {
-        "name": "Стикеровщик на склад в Yandex Лавку",
-        "city": "Санкт-Петербург",
-        "url": "https://hh.ru/vacancy/125612870",
-        "salary_from": 94900,
-        "salary_to": 108400,
-        "currency": "RUR"
     },
     {
         "name": "Водитель-испытатель",
@@ -160,12 +48,76 @@
         "currency": "KZT"
     },
     {
-        "name": "Работник в торговый зал",
-        "city": "Пенза",
-        "url": "https://hh.ru/vacancy/127259847",
-        "salary_from": 70000,
-        "salary_to": 120000,
-        "currency": "RUR"
+        "name": "ReactJS developer",
+        "city": "Ташкент",
+        "url": "https://hh.ru/vacancy/127091188",
+        "salary_from": 0,
+        "salary_to": 1000,
+        "currency": "USD"
+    },
+    {
+        "name": "Шеф-повар",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127560041",
+        "salary_from": 0,
+        "salary_to": 1200000,
+        "currency": "KZT"
+    },
+    {
+        "name": "Оператор ПК",
+        "city": "Витебск",
+        "url": "https://hh.ru/vacancy/127601661",
+        "salary_from": 0,
+        "salary_to": 0,
+        "currency": ""
+    },
+    {
+        "name": "Упаковщик",
+        "city": "Бишкек",
+        "url": "https://hh.ru/vacancy/127551748",
+        "salary_from": 40000,
+        "salary_to": 55000,
+        "currency": "KGS"
+    },
+    {
+        "name": "Семейный водитель",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127594177",
+        "salary_from": 550000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "ООО \"СИМВЕР\"",
+        "city": "Могилев",
+        "url": "https://hh.ru/vacancy/127449644",
+        "salary_from": 1700,
+        "salary_to": 0,
+        "currency": "BYR"
+    },
+    {
+        "name": "Бухгалтер-операционист",
+        "city": "Астана",
+        "url": "https://hh.ru/vacancy/127624213",
+        "salary_from": 400000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "Менеджер по кадровому делопроизводству",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127628949",
+        "salary_from": 500000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "Junior Frontend разработчик",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127229477",
+        "salary_from": 0,
+        "salary_to": 0,
+        "currency": ""
     },
     {
         "name": "JUNIOR FRONT―END ENGINEER",
@@ -174,6 +126,22 @@
         "salary_from": 0,
         "salary_to": 1000,
         "currency": "USD"
+    },
+    {
+        "name": "Главный бухгалтер",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127538539",
+        "salary_from": 1200000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "Офисный работник",
+        "city": "Брест",
+        "url": "https://hh.ru/vacancy/127630429",
+        "salary_from": 1400,
+        "salary_to": 1600,
+        "currency": "BYR"
     },
     {
         "name": "Менеджер по продажам",
@@ -192,12 +160,28 @@
         "currency": "KZT"
     },
     {
-        "name": "ООО \"СИМВЕР\"",
-        "city": "Могилев",
-        "url": "https://hh.ru/vacancy/127449644",
-        "salary_from": 1700,
+        "name": "Консультант - эксперт в Fashion сеть VITACCI !",
+        "city": "Ташкент",
+        "url": "https://hh.ru/vacancy/126898260",
+        "salary_from": 0,
         "salary_to": 0,
-        "currency": "BYR"
+        "currency": ""
+    },
+    {
+        "name": "Табельщик",
+        "city": "Атырау",
+        "url": "https://hh.ru/vacancy/127636183",
+        "salary_from": 250000,
+        "salary_to": 350000,
+        "currency": "KZT"
+    },
+    {
+        "name": "Водитель-испытатель",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127537151",
+        "salary_from": 450000,
+        "salary_to": 0,
+        "currency": "KZT"
     },
     {
         "name": "ReactJS developer",
@@ -208,38 +192,6 @@
         "currency": "USD"
     },
     {
-        "name": "Консультант - эксперт в Fashion сеть VITACCI !",
-        "city": "Ташкент",
-        "url": "https://hh.ru/vacancy/126898260",
-        "salary_from": 0,
-        "salary_to": 0,
-        "currency": null
-    },
-    {
-        "name": "Администратор",
-        "city": "Брест",
-        "url": "https://hh.ru/vacancy/127544863",
-        "salary_from": 1400,
-        "salary_to": 0,
-        "currency": "BYR"
-    },
-    {
-        "name": "Frontend-разработчик",
-        "city": "Ташкент",
-        "url": "https://hh.ru/vacancy/127431720",
-        "salary_from": 5000000,
-        "salary_to": 0,
-        "currency": "UZS"
-    },
-    {
-        "name": "Бухгалтер на первичную документацию",
-        "city": "Астана",
-        "url": "https://hh.ru/vacancy/127352767",
-        "salary_from": 400000,
-        "salary_to": 500000,
-        "currency": "KZT"
-    },
-    {
         "name": "Шеф-повар",
         "city": "Алматы",
         "url": "https://hh.ru/vacancy/127560041",
@@ -248,28 +200,12 @@
         "currency": "KZT"
     },
     {
-        "name": "Администратор",
-        "city": "Барановичи",
-        "url": "https://hh.ru/vacancy/127490667",
-        "salary_from": 1200,
-        "salary_to": 1500,
-        "currency": "BYR"
-    },
-    {
-        "name": "Junior Frontend разработчик",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127229477",
+        "name": "Оператор ПК",
+        "city": "Витебск",
+        "url": "https://hh.ru/vacancy/127601661",
         "salary_from": 0,
         "salary_to": 0,
-        "currency": null
-    },
-    {
-        "name": "Главный бухгалтер",
-        "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127538539",
-        "salary_from": 1200000,
-        "salary_to": 0,
-        "currency": "KZT"
+        "currency": ""
     },
     {
         "name": "Упаковщик",
@@ -280,27 +216,59 @@
         "currency": "KGS"
     },
     {
-        "name": "Разработчик Java",
-        "city": "Тамбов",
-        "url": "https://hh.ru/vacancy/127606738",
-        "salary_from": 0,
+        "name": "Семейный водитель",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127594177",
+        "salary_from": 550000,
         "salary_to": 0,
-        "currency": null
-    },
-    {
-        "name": "Диспетчер",
-        "city": "Актау",
-        "url": "https://hh.ru/vacancy/127487294",
-        "salary_from": 250000,
-        "salary_to": 350000,
         "currency": "KZT"
     },
     {
-        "name": "Администратор",
+        "name": "ООО \"СИМВЕР\"",
+        "city": "Могилев",
+        "url": "https://hh.ru/vacancy/127449644",
+        "salary_from": 1700,
+        "salary_to": 0,
+        "currency": "BYR"
+    },
+    {
+        "name": "Бухгалтер-операционист",
+        "city": "Астана",
+        "url": "https://hh.ru/vacancy/127624213",
+        "salary_from": 400000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "Менеджер по кадровому делопроизводству",
         "city": "Алматы",
-        "url": "https://hh.ru/vacancy/127477314",
+        "url": "https://hh.ru/vacancy/127628949",
         "salary_from": 500000,
-        "salary_to": 500000,
+        "salary_to": 0,
+        "currency": "KZT"
+    },
+    {
+        "name": "Junior Frontend разработчик",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127229477",
+        "salary_from": 0,
+        "salary_to": 0,
+        "currency": ""
+    },
+    {
+        "name": "JUNIOR FRONT―END ENGINEER",
+        "city": "Ташкент",
+        "url": "https://hh.ru/vacancy/127360405",
+        "salary_from": 0,
+        "salary_to": 1000,
+        "currency": "USD"
+    },
+    {
+        "name": "Главный бухгалтер",
+        "city": "Алматы",
+        "url": "https://hh.ru/vacancy/127538539",
+        "salary_from": 1200000,
+        "salary_to": 0,
         "currency": "KZT"
     }
 ]
