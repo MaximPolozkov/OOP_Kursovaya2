@@ -15,8 +15,9 @@ def user_interaction():
         choice = input("Выберите действие: ")
 
         if choice == '1':
-            hh_api = HeadHanterAPI()
-            vacancies = hh_api.get_vacancies()
+            text = input("Введите слово интересующей вакансии: ")
+            hh_api = HeadHanterAPI(text)
+            vacancies = hh_api.load_vacancies()
             json_server = JSONSaver()
             for vacancy_data in vacancies:
                 vacancy = Vacancy(
@@ -29,14 +30,13 @@ def user_interaction():
                 )
                 json_server.add_vacancy(vacancy.to_dict())  # Добавляем созданный объект Vacancy
 
-            job_search = input("Введите вакансию: ")
-            all_vacancies = json_server.get_vacancies(job_search)
-            print(all_vacancies)
+            #all_vacancies = json_server.get_vacancies(text)
+            print(f"Вакансии по запросу {text} записаны в файл")
 
         elif choice == '2':
-            criteria = input("Введите ключевое слово для фильтрации (или нажмите Enter для вывода всех): ")
+            #criteria = input("Введите ключевое слово для фильтрации (или нажмите Enter для вывода всех): ")
             json_server = JSONSaver()
-            vacancies = json_server.get_vacancies(criteria)
+            vacancies = json_server.get_vacancies()
             if vacancies:
                 top_n = input("Введите количество вакансий для вывода в топе: ")
                 try:

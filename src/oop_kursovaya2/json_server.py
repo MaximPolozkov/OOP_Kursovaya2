@@ -30,7 +30,7 @@ class JSONSaver:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
     def get_vacancies(self, criteria: Optional[str] = None) -> List[Dict[str, Any]]:
-        """Получает вакансии из JSON-файла пи критериям"""
+        """Получает вакансии из JSON-файла по критериям"""
         try:
             with open(self.__filename, 'r', encoding='utf-8') as f:
                 data = json.load(f)
