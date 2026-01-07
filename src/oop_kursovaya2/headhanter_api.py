@@ -23,29 +23,11 @@ class HeadHanterAPI(VacancyAPI):
                 vacancie = response.json()['items']
                 self.vacancies.extend(vacancie)
                 self.params['page'] += 1
-                #return self.vacancies
             return self.vacancies
         except requests.exceptions.RequestException as e:
             print(f"Ошибка при запросе к API: {e}")
             return None
 
-    def get_vacancies(self, query: str = None, page: int = 0) -> List[Dict[str, Any]]:
-        """Получает вакансии с hh.ru с учетом пагинации."""
-        params = {'text': query, 'page': page, 'per_page': 100} if query else {'page': page, 'per_page': 100}  # Добавил параметры для пагинации
-        data = self._connect(params)
-        return data.get('items', []) if data else []
-
-    def get_all_vacancies(self, query: str = None) -> List[Dict[str, Any]]:
-        """Получает все вакансии по запросу, перебирая страницы."""
-        all_vacancies = []
-        page = 0
-        while True:
-            params = {'text': query, 'page': page, 'per_page': 100} if query else {'page': page, 'per_page': 100}
-            data = self._connect(params)  # Получаем данные с текущей страницы
-            if not data or 'items' not in data or not data['items']:
-                break
-
-            all_vacancies.extend(data['items'])
-            page += 1
-
-        return all_vacancies
+    def get_vacancies(self) -> List[Dict[str, Any]]:
+        vacancies = self.load_vacancies()
+        return vacancies if vacancies is not None else []

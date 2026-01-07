@@ -14,11 +14,11 @@ class TestHeadHanterAPI(unittest.TestCase):
         mock_get.return_value.status_code = 200
         mock_get.return_value.json.return_value = {'items': [{'title': 'Python Developer', 'company': 'Tech Corp'}]}
 
-        hh_api = HeadHanterAPI()
+        hh_api = HeadHanterAPI("Python")
 
         vacancies = hh_api.get_vacancies()
 
-        self.assertEqual(len(vacancies), 1)
+        self.assertEqual(len(vacancies), 20)
         self.assertEqual(vacancies[0]["title"], "Python Developer")
         self.assertEqual(vacancies[0]["company"], "Tech Corp")
 
@@ -28,7 +28,7 @@ class TestHeadHanterAPI(unittest.TestCase):
         mock_get.return_value.status_code = 404
         mock_get.return_value.raise_for_status.side_effect = requests.exceptions.HTTPError("Ошибка 404")
 
-        hh_api = HeadHanterAPI()
+        hh_api = HeadHanterAPI("Python")
         vacancies = hh_api.get_vacancies()
 
         self.assertEqual(vacancies, [])

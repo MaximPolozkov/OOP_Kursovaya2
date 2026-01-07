@@ -17,7 +17,7 @@ def user_interaction():
         if choice == '1':
             text = input("Введите слово интересующей вакансии: ")
             hh_api = HeadHanterAPI(text)
-            vacancies = hh_api.load_vacancies()
+            vacancies = hh_api.get_vacancies()
             json_server = JSONSaver()
             for vacancy_data in vacancies:
                 vacancy = Vacancy(
